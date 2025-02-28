@@ -98,7 +98,7 @@ Se evaluará por medio de captura de pantalla la realización el uso de comandos
 
 1. Un pdf nombrado de la siguiente manera: NombreApellido_Tema_Fecha_Curso
 
-# TEMA 6. Un poco más de los fundamentos de Git
+# TEMA 6. Un poco más de los fundamentos de Git LOG
 
 Un repositorio en GitHub con un proyecto web, documentado y preparado para hacer commits git log
 
