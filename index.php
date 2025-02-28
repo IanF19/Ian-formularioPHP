@@ -11,6 +11,7 @@ if ($_GET) {
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel:"stylesheet" href="form.css">
 	<title>Formulario</title>
 </head>
 <body>
@@ -19,8 +20,9 @@ if ($_GET) {
 		<input type="text" placeholder="Edad:" name="edad" id="edad">
 		<br>
 
+
 <!-- Radio Button -->
-		<label for="hombre">Hombre</label>
+		<label id="H" for="hombre">Hombre</label>
 		<input type="radio" name="sexo" id="hombre" value="hombre">
 		<br>
 
@@ -42,5 +44,6 @@ if ($_GET) {
 
 		<input type="submit" name="btn-enviar" vale="Enviar">
 	</form>
+	<img class="img" src="descarga.jpg" alt="random" />
 </body>
 </html>

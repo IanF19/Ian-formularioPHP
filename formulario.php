@@ -40,6 +40,7 @@ if (isset($_POST['submit'])) {
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel:"stylesheet" href="form2.css">
 	<title>Document</title>
 	<style>
 		.error {color:red;}
@@ -47,8 +48,8 @@ if (isset($_POST['submit'])) {
 </head>
 <body>
 	<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
-		<input type="text" name="nombre" placeholder="Nombre">
-		<input type="text" name="correo" placeholder="Correo">
+		<input class="name" type="text" name="nombre" placeholder="Nombre">
+		<input  class="correo" type="text" name="correo" placeholder="Correo">
 
 		<?php if(!empty($errores)): ?>
 			<div class="error"><?php echo $errores; ?></div>
